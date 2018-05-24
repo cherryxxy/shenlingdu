@@ -1,0 +1,455 @@
+
+@charset "utf-8";
+.header{
+	height: 84px;
+	width: 100%;
+	background:#1c1b21;
+	position:fixed;
+	z-index:999;
+}
+.header-c{
+	height: 84px;
+}
+.header-c .photo{
+	float:left;
+}
+.header-c ul{
+	float:right;
+	height:84px;
+	line-height:84px;
+}
+.header-c ul li{
+	float:left;
+	margin-right:16px;
+}
+.header-c ul li a{
+	color:#fff;
+	font-size:16px;
+	text-decoration:none;
+	
+}
+.header-c ul li a:hover{
+	border-bottom:2px #ff1d00 solid;
+	padding-bottom: 2px;
+	
+}
+ .header-c ul li img {
+	padding-top:32px;
+} 
+.banner{
+	height: 654px;
+	background:red;
+	position:relative;
+}
+.banner .piaofu{
+	position:fixed;
+	z-index:999;
+	right:0;
+	top:300px;
+}
+.banner .list{
+
+	height:654px;
+	overflow:hidden;
+	position:relative;
+}
+
+  .banner .list #img1 .pc,.banner .list #img2 .pc,.banner .list #img3 .pc{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+}  
+
+ .banner .list #img2 .pc,.banner .list #img3 .pc{
+    z-index:-1;
+} 
+.banner .btn{
+	position:absolute;
+	width: 200px;
+	height: 50px;
+	left:190px;
+	bottom:90px;
+}
+.banner .btn a{
+	width: 40px;
+	height: 45px;
+	background:#fff;
+	border:1px #ddd solid;
+	float:left;
+	line-height:40px;
+	text-align:center;font-size:20px;
+	text-decoration:none;
+}
+.banner .btn a:hover{
+ 	background:#ff1d00;
+ 	color:#fff;
+}
+.service{
+	height: 1020px;
+	text-align:center;
+	padding-top:58px;
+}
+.service h1, .anli-c h1,.process h1,.digital h1,.invent h1{
+	color:#ff1d00;
+	font-size:32px;
+	padding-bottom:10px;
+}
+.service h2, .anli-c h2,.process h2,.digital h2,.invent h2{
+	color:#aaa;
+	font-size:20px;
+	padding:10px 0;
+}
+.service p,.process p,.invent p{
+	color:#ccc;
+	font-size:16px;
+	padding-bottom:70px;
+}
+.service dl{
+	float:left;
+	width: 240px;
+	height: 230px;
+	text-align:center;
+}
+.service dl:hover dt{
+    background:#ff1d00;
+    transform:rotate(360deg);
+    color:#fff;
+}
+
+.service dl dt{
+	width: 136px;
+	height: 136px;
+	border-radius:136px;
+	border: 1px #ddd solid;
+	margin-left:50px;
+	line-height:136px;
+	margin-bottom:20px;
+	transition:all .5s;
+}
+.service dl dt .iconfont{
+	font-size:60px;
+	
+}
+.service div{
+	height: 156px;
+	line-height:156px;
+	padding-left: 180px;
+}
+.service div p{
+	float:left;
+	width: 80px;
+	
+	position:relative;
+}
+.service div p span{
+	font-size:10px;
+	position:absolute;
+	left:0;
+	top:-15px;
+	display:none;
+
+}
+.service div a{
+	float:left;
+	width: 50px;
+	height: 50px;
+	border-radius:50px;
+	border:1px #ddd solid;
+	position:relative;
+	margin-right: 28px;
+	color:#ddd;
+}
+.service div p:hover a{
+	background:#aaa;
+	color:#fff;
+}
+.service div p:hover span{
+	display:block;
+}
+/* .service div a span{
+	display:none;
+} */
+.service div a i{
+	position:absolute;
+	top:-52px;
+	left:15px;
+	font-size:24px;
+}
+.service img{
+	padding-left:170px;
+	padding-top:60px;
+}
+.anli{
+	height: 1144px;
+	background:#f6f6f6;
+}
+.anli-c{
+	height: 1144px;
+	text-align:center;
+	padding-top:58px;
+	position:relative;
+}
+.anli-c dl{
+	float:left;
+	height: 248px;
+	width: 300px;
+	transition:all 1s;
+}
+.anli-c dl:hover dd{
+    background:#f00;
+    color:#fff;
+}
+.anli-c dl:hover dt{
+    background:#000;
+}
+.anli-c dl:hover span{
+    display:block;
+}
+.anli-c dl:hover img{
+    opacity:.6;
+}
+.anli-c h2{
+	margin-bottom: 60px;
+}
+.anli-c dt{
+	position:relative;
+	transition:all 1s;
+}
+.anli-c dt span{
+	display:block;
+	position:absolute;
+	width: 40px;
+	height: 40px;
+	border-radius:40px;
+	background:red;
+	line-height:40px;
+	color:#fff;
+	font-size:30px;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	display:none;
+	transition:all 1s;
+}
+.anli-c dd{
+	height: 55px;line-height:55px;
+	text-align:left;
+	padding:0 20px;
+	background:#ededee;
+	transition:all 0.5s;
+}
+.anli-c dd span{
+	float:right;
+}
+.anli-c a{
+	color:red;
+/* 	padding-top:50px ; */
+    display:block;
+	text-align:center;
+	margin-top:50px;
+	border:1px #f00 solid;
+	width: 180px;
+	height: 50px;
+	position:absolute;
+	bottom:150px;
+	left:500px;
+	line-height:50px;
+	text-decoration:none;
+	border-radius:10px;
+	font-size:20px;
+}
+.anli-c a:hover{
+	background:#f00;
+	color:#fff;
+}
+.process{
+	height: 908px;
+	text-align:center;
+	padding-top:58px;
+}
+.process img{
+	float:left;
+}
+.process img:nth-child(1){
+	margin-right:20px;
+}
+
+.process img:hover{
+	opacity:.5;
+}
+.process dl{
+	margin-top:60px;
+	width: 278px;
+	height: 258px;
+	float:left;
+	margin-right:20px;
+}
+.process dt{
+	height: 30px;
+	line-height:30px;
+	background:#1f1e26;
+	color:#fff;
+	text-align:left;
+	padding-left:15px;
+}
+.process dd{
+	height: 40px;
+	line-height:40px;
+	color:#aaa;
+	text-align:left;
+	padding-left:15px;
+	border-bottom:1px #aaa solid;
+}
+.digital{
+	height: 960px;
+	background:#f6f6f6;
+
+}
+.digital-c{
+	height: 960px;
+	text-align:center;
+	padding-top:58px;
+}
+.digital-c dl{
+	width: 380px;
+	height: 360px;
+	float:left;
+	margin-right: 20px;
+	margin-bottom:50px;
+}
+.digital-c dl img:hover{
+	opacity:.5;
+}
+.digital-c dd{
+	text-align:left;
+	padding:25px 0;
+	color:#aaa;
+	line-height:24px;
+}
+.invent{
+	height: 1034px;
+	text-align:center;
+	padding-top:58px;
+
+}
+.invent p{
+	margin-bottom:-20px;
+}
+.invent h4{
+	color:#aaa;
+	font-weight:normal;
+	font-size:14px;
+}
+.invent dl{
+	margin-top:50px;
+	width: 240px;
+	height: 88px;
+	float:left;
+	border:1px #ddd solid;
+	transition:all .5s;
+	margin-bottom:85px;
+}
+.invent dl:hover{
+	background:#f00;
+	color:#fff;
+}
+.invent dt{
+	float:left;
+	line-height:88px;
+	height: 88px;
+	padding-left:20px;
+}
+.invent dt .iconfont{
+	font-size:60px;
+}
+.invent dd{
+	line-height:30px;
+}
+.invent div{
+	height: 370px;
+	margin-top:220px;
+	text-align:left;
+	padding-bottom:70px;
+	border-bottom:1px #ddd solid;
+	
+}
+.invent div h5{
+	font-weight:normal;
+}
+.invent div .h51{
+	color:red;
+	font-size:20px;
+	padding-bottom:20px;
+}
+.invent div .h52{
+	line-height:24px;
+	color:#aaa;
+}
+.invent div .h53{
+	padding-top:30px;
+	color:#aaa;
+}
+.invent div .h54{
+	padding-top:10px;
+	color:#aaa;
+}
+.invent div .h55{
+	padding-top:30px;
+	color:#aaa;
+}
+.invent div .h56{
+	padding-top:30px;
+	color:#aaa;
+	position:relative;
+}
+.invent div .h56 a {
+	display:block;
+	width: 170px;
+	height: 54px;
+	background:#313d50;
+	line-height:54px;
+	color:#fff;
+	text-align:center;
+	border-radius:5px;
+	border-bottom:4px #1d242f solid;
+	position:absolute;
+	right:0;
+	top:0px;
+	text-decoration:none;
+}
+.invent div .h56 a:hover{
+	background:#ff1d00;
+	border-bottom:4px #f00 solid;
+}
+.invent div img{
+	float:left;
+	margin-right: 45px;
+}
+.invent h6{
+	text-align:left;
+	color:#aaa;
+	padding:15px 0;
+}
+.invent a{
+	float:left;line-height:36px;
+	padding-right: 20px;
+}
+.footer{
+	height: 247px;
+	background:#1f1e26;
+	color:#605e6b;
+	text-align:center;
+	padding-top:66px;
+}
+.footer p{
+	padding-bottom:30px;
+}
+.footer img{
+	margin-left:650px;
+}
+

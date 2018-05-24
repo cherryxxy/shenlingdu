@@ -1,0 +1,96 @@
+
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html,body{
+	height:100%;
+}
+body{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+}
+header{
+	height:.82rem;
+	background:#12b7f5;
+	font-size:.36rem;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	color:#fff;
+	padding:0 .2rem;
+}
+nav{
+	height:.86rem;
+	font-size:.34rem;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+nav a{
+	color:#aaa;
+	text-decoration:none;
+	display:block;
+	height:.86rem;
+	padding:0 .15rem;
+	line-height:.86rem;
+	
+
+}
+nav a:hover{
+	border-bottom:.06rem #12b7f5 solid;
+	color:#12b7f5;
+}
+.banner{
+	height:3.74rem;
+	background:url(../images/yd1_02.png) no-repeat left center;
+}
+section{
+	flex:1;
+	overflow:auto;
+}
+fieldset{
+	border:none;
+	border-top:.02rem #12b7f5 solid;
+	display:flex;
+	margin:0 .2rem;
+
+
+}
+legend{
+	color:#12b7f5;
+	font-size:.34rem;
+	width: 1.6rem;
+	height: 1rem;
+	background:#fff;
+	line-height: 1rem;
+	margin-left:2.9rem;
+}
+figure{
+	height:1.82rem;
+	border-bottom:1px #ddd solid;
+	display:flex;
+}
+figure img{
+	height: 1.82rem;
+}
+figcaption{
+	font-size:.4rem;
+	padding-bottom:.2rem;	
+}
+figure div{
+	font-size:.3rem;
+	color:#aaa;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+figure aside{
+	padding:0 .2rem;
+}
+figure div p span{
+	padding-right:.2rem;
+}
